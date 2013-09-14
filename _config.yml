@@ -1,0 +1,8 @@
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root:        /
+source:      .
+destination: ./_site
+layouts:     ./_layouts
+pygments:    true
+markdown:    rdiscount
+permalink:   /:year/:month/:day/:title 
